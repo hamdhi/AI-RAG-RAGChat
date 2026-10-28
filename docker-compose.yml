@@ -1,0 +1,12 @@
+services:
+  vector-db:
+    image: qdrant/qdrant
+    container_name: vector-db
+    ports:
+      - "6333:6333"
+    # environment:
+    #   - VECTOR_DB_ENV=production
+    #   - VECTOR_DB_API_KEY=your_api_key_here
+    # volumes:
+    #   - ./data:/var/lib/vector-db/data
+    # restart: unless-stopped

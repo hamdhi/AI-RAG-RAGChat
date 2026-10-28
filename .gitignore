@@ -1,0 +1,27 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Private documents and local databases
+app/data/*
+!app/data/.gitkeep
+qdrant_data/
+/data/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local dependency installs
+node_modules/
+
